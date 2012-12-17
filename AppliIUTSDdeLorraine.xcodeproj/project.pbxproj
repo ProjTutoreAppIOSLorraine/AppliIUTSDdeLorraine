@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D2A637D167B5F1D00BAC6A8 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D2A637C167B5F1D00BAC6A8 /* loading.gif */; };
 		6D2A6381167B617B00BAC6A8 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A6380167B617B00BAC6A8 /* News.m */; };
 		6D2A6384167B650700BAC6A8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A6383167B650700BAC6A8 /* RootViewController.m */; };
 		6D547246167B3506003F58A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D547245167B3506003F58A5 /* UIKit.framework */; };
@@ -29,10 +28,10 @@
 		6D54727A167B3506003F58A5 /* AppliIUTSDdeLorraineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D547279167B3506003F58A5 /* AppliIUTSDdeLorraineTests.m */; };
 		6D547285167B3631003F58A5 /* StartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D547284167B3631003F58A5 /* StartController.m */; };
 		6D547287167B3B3F003F58A5 /* dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D547286167B3B3F003F58A5 /* dictionary.plist */; };
-		6D54728A167B3CAB003F58A5 /* intro1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D547288167B3CAB003F58A5 /* intro1.png */; };
-		6D54728B167B3CAB003F58A5 /* intro2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D547289167B3CAB003F58A5 /* intro2.png */; };
 		6D54728D167B3CFE003F58A5 /* icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D54728C167B3CFE003F58A5 /* icone.png */; };
 		6D54728F167B3D45003F58A5 /* retinalol.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D54728E167B3D45003F58A5 /* retinalol.png */; };
+		CD605614167FB5A5003F5248 /* intro1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD605612167FB5A5003F5248 /* intro1.png */; };
+		CD605615167FB5A5003F5248 /* intro2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD605613167FB5A5003F5248 /* intro2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D2A637C167B5F1D00BAC6A8 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading.gif; path = ../../../Downloads/ashton/images/loading.gif; sourceTree = "<group>"; };
 		6D2A637F167B617B00BAC6A8 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		6D2A6380167B617B00BAC6A8 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		6D2A6382167B650700BAC6A8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -77,11 +75,11 @@
 		6D547283167B3631003F58A5 /* StartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartController.h; sourceTree = "<group>"; };
 		6D547284167B3631003F58A5 /* StartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartController.m; sourceTree = "<group>"; };
 		6D547286167B3B3F003F58A5 /* dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dictionary.plist; sourceTree = "<group>"; };
-		6D547288167B3CAB003F58A5 /* intro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intro1.png; path = "../../../Dropbox/Application de lorraine/xcode/source/intro1.png"; sourceTree = "<group>"; };
-		6D547289167B3CAB003F58A5 /* intro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intro2.png; path = "../../../Dropbox/Application de lorraine/xcode/source/intro2.png"; sourceTree = "<group>"; };
 		6D54728C167B3CFE003F58A5 /* icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icone.png; path = ../icone.png; sourceTree = "<group>"; };
 		6D54728E167B3D45003F58A5 /* retinalol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = retinalol.png; path = ../retinalol.png; sourceTree = "<group>"; };
 		6D98D2CF167F5C47009A5C84 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD605612167FB5A5003F5248 /* intro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro1.png; sourceTree = "<group>"; };
+		CD605613167FB5A5003F5248 /* intro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,11 +140,10 @@
 		6D54724B167B3506003F58A5 /* AppliIUTSDdeLorraine */ = {
 			isa = PBXGroup;
 			children = (
+				CD605612167FB5A5003F5248 /* intro1.png */,
+				CD605613167FB5A5003F5248 /* intro2.png */,
 				6D54728C167B3CFE003F58A5 /* icone.png */,
-				6D2A637C167B5F1D00BAC6A8 /* loading.gif */,
 				6D54728E167B3D45003F58A5 /* retinalol.png */,
-				6D547288167B3CAB003F58A5 /* intro1.png */,
-				6D547289167B3CAB003F58A5 /* intro2.png */,
 				6D547254167B3506003F58A5 /* AppDelegate.h */,
 				6D547255167B3506003F58A5 /* AppDelegate.m */,
 				6D54725D167B3506003F58A5 /* MainStoryboard_iPhone.storyboard */,
@@ -276,11 +273,10 @@
 				6D54725F167B3506003F58A5 /* MainStoryboard_iPhone.storyboard in Resources */,
 				6D547262167B3506003F58A5 /* MainStoryboard_iPad.storyboard in Resources */,
 				6D547287167B3B3F003F58A5 /* dictionary.plist in Resources */,
-				6D54728A167B3CAB003F58A5 /* intro1.png in Resources */,
-				6D54728B167B3CAB003F58A5 /* intro2.png in Resources */,
 				6D54728D167B3CFE003F58A5 /* icone.png in Resources */,
 				6D54728F167B3D45003F58A5 /* retinalol.png in Resources */,
-				6D2A637D167B5F1D00BAC6A8 /* loading.gif in Resources */,
+				CD605614167FB5A5003F5248 /* intro1.png in Resources */,
+				CD605615167FB5A5003F5248 /* intro2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
