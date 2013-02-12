@@ -16,6 +16,9 @@
     NSLog(@"Registering for push notifications...");
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
      (UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
+    NSLog(@"Device ID %@", [Utils getDeviceID]);
+    NSLog(@"Device ID %@", [Utils getDeviceID]);
+
     return YES;
 }
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
@@ -39,7 +42,7 @@
     }
     
     NSLog(@"This is device token %@", devToken);
-    
+   
 }
 
 - (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {
