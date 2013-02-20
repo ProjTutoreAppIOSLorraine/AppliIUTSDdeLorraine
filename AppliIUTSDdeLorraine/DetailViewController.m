@@ -12,7 +12,7 @@
 @interface DetailViewController ()
 
 @end
-
+// test modif
 @implementation DetailViewController
 @synthesize titre;
 @synthesize contenu;
