@@ -37,8 +37,13 @@
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     self.tabNews = [[[NSMutableArray alloc] init] autorelease];
-    NSString *urlxml=[NSString stringWithFormat:@"http://iutsd.applorraine.fr/%@.plist", [Utils getDeviceID]];
-    NSArray *contenuTableauPlist = [[[NSArray alloc] initWithContentsOfURL:[NSURL URLWithString:urlxml]] autorelease];
+    // Commenté pour tests en local BK 4/02/2014
+    //    NSString *urlxml=[NSString stringWithFormat:@"http://iutsd.applorraine.fr/%@.plist", [Utils getDeviceID]];
+    //    NSArray *contenuTableauPlist = [[[NSArray alloc] initWithContentsOfURL:[NSURL URLWithString:urlxml]] autorelease];
+
+    NSString *chemin = [[NSBundle mainBundle] pathForResource:@"example" ofType:@"plist"];
+    NSArray *contenuTableauPlist = [[NSArray alloc] initWithContentsOfFile:chemin];
+
     for (NSDictionary *dict in contenuTableauPlist){
         News *ws = [[[News alloc]initWithDictionaryFromPlist:dict] autorelease];
         [tabNews addObject:ws];

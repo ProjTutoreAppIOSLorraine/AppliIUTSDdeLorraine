@@ -58,6 +58,7 @@
 		CD46AAFA16E38F330049D815 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = CD46AAF916E38F330049D815 /* about.html */; };
 		CD46AAFD16E395630049D815 /* About_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD46AAFC16E38F850049D815 /* About_ViewController.m */; };
 		CD46AAFF16E3A7390049D815 /* mgel_emevia.png in Resources */ = {isa = PBXBuildFile; fileRef = CD46AAFE16E3A7390049D815 /* mgel_emevia.png */; };
+		CD479CC918A0F2310043F951 /* example.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD479CC818A0F2310043F951 /* example.plist */; };
 		CD52B76A17D0F7EC00CC954A /* logo_UL_IUT.png in Resources */ = {isa = PBXBuildFile; fileRef = CD52B76917D0F7E800CC954A /* logo_UL_IUT.png */; };
 		CD52B76C17D1285000CC954A /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD52B76B17D1285000CC954A /* img1.png */; };
 		CD52B76E17D1289000CC954A /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD52B76D17D1289000CC954A /* img2.png */; };
@@ -228,6 +229,7 @@
 		CD46AAFB16E38F850049D815 /* About_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = About_ViewController.h; sourceTree = "<group>"; };
 		CD46AAFC16E38F850049D815 /* About_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = About_ViewController.m; sourceTree = "<group>"; };
 		CD46AAFE16E3A7390049D815 /* mgel_emevia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mgel_emevia.png; sourceTree = "<group>"; };
+		CD479CC818A0F2310043F951 /* example.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = example.plist; sourceTree = "<group>"; };
 		CD52B76917D0F7E800CC954A /* logo_UL_IUT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_UL_IUT.png; sourceTree = "<group>"; };
 		CD52B76B17D1285000CC954A /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
 		CD52B76D17D1289000CC954A /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
@@ -423,6 +425,7 @@
 		6D547236167B3506003F58A5 = {
 			isa = PBXGroup;
 			children = (
+				CD479CC818A0F2310043F951 /* example.plist */,
 				F9A35DAD184FACF300E37FEE /* 29x29.png */,
 				F9A35DAE184FACF300E37FEE /* 57x57.png */,
 				F9A35DAF184FACF400E37FEE /* 58x58.png */,
@@ -746,6 +749,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD479CC918A0F2310043F951 /* example.plist in Resources */,
 				F9AD9901184F967200B983B5 /* icone_identification.png in Resources */,
 				CDFBB40516DA596E005A68CD /* geii2.png in Resources */,
 				CDFBB40616DA596E005A68CD /* geii1.png in Resources */,
