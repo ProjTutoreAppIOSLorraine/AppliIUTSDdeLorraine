@@ -5,7 +5,7 @@
 //  Created by Kerautret on 16/02/13.
 //  Copyright (c) 2013 Damien Bannerot. All rights reserved.
 //
-
+#import "SelectEDTController.h"
 #import "EtudiantController.h"
 #import "RootViewController.h"
 #import "ViewController.h"
@@ -42,6 +42,7 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
 
     NSString *isFirstApp = [[NSUserDefaults standardUserDefaults] objectForKey:@"isFirstLanch"];
     if(!isFirstApp){
@@ -67,20 +68,23 @@
 
 - (IBAction)back:(id)sender {
     [myButtonBack setEnabled:NO];
-    UIView * previousView = [(UIViewController<SlidableView> *)[self presentingViewController] viewAnimates];
-    [[self view] insertSubview: previousView belowSubview: viewAnimates ];
-    [UIView animateWithDuration:0.4
-                          delay:0.0
-                        options:UIViewAnimationOptionTransitionFlipFromTop
-                     animations:^{
-                         [viewAnimates setTransform:CGAffineTransformMakeTranslation(0, viewAnimates.frame.size.height)];
-                         
-                     }
-                     completion:^(BOOL finished){
-                         [[(ViewController<SlidableView> *)[self presentingViewController] view] insertSubview: previousView belowSubview: [(UIViewController<SlidableView>*)[self presentingViewController] topImage] ];
-                         [self dismissViewControllerAnimated:NO completion:nil];
-                         //[(AuthController<SlidableView> *)[self presentingViewController] back: self];
-                     }];
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+//    [myButtonBack setEnabled:NO];
+//    UIView * previousView = [(UIViewController<SlidableView> *)[self presentingViewController] viewAnimates];
+//    [[self view] insertSubview: previousView belowSubview: viewAnimates ];
+//    [UIView animateWithDuration:0.4
+//                          delay:0.0
+//                        options:UIViewAnimationOptionTransitionFlipFromTop
+//                     animations:^{
+//                         [viewAnimates setTransform:CGAffineTransformMakeTranslation(0, viewAnimates.frame.size.height)];
+//                         
+//                     }
+//                     completion:^(BOOL finished){
+//                         [[(ViewController<SlidableView> *)[self presentingViewController] view] insertSubview: previousView belowSubview: [(UIViewController<SlidableView>*)[self presentingViewController] topImage] ];
+//                         [self dismissViewControllerAnimated:NO completion:nil];
+//                         //[(AuthController<SlidableView> *)[self presentingViewController] back: self];
+//                     }];
     
 }
 
@@ -92,8 +96,11 @@
         [destViewController loadView];
         
     }if ([segue.identifier isEqualToString:@"edt"]) {
-        EdtViewController *destViewController = segue.destinationViewController;
+        SelectEDTController *destViewController = segue.destinationViewController;
+        [destViewController initData];
         [destViewController loadView];
+        destViewController.view.hidden = NO; //calls viewDidLoad
+              
         
     }else if ([segue.identifier isEqualToString:@"setting"]) {
         PreferencesViewController *destViewController = segue.destinationViewController;

@@ -15,7 +15,6 @@
     IBOutlet UIBarButtonItem *before;
     IBOutlet UIToolbar *navBar;
     int numWeek;
-    NSString *edtName;
     NSString *edtID;
 
     IBOutlet UIView *viewAnimates;
@@ -31,6 +30,10 @@
 @property (nonatomic, retain) UIBarButtonItem *next;
 @property (nonatomic, retain) UIBarButtonItem *before;
 @property (nonatomic, retain) UIToolbar *navBar;
+@property (nonatomic, retain) NSString *edtID;
+
+
+
 
 - (IBAction) next: (UIBarButtonItem *) sender;
 - (IBAction) before: (UIBarButtonItem *) sender;

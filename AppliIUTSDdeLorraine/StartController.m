@@ -32,11 +32,9 @@
 
 
 
-
 -(void) viewDidAppear:(BOOL)animated
 {
-    [NSThread sleepForTimeInterval: 1];
-    
+    [NSThread sleepForTimeInterval: 1];    
     [UIView transitionFromView: self.view
                         toView: intro2
                       duration: 1.0f
@@ -46,10 +44,10 @@
                         if(done){
                             self.view = intro2;
                             [self performSegueWithIdentifier:@"transition" sender:self];
-                            
                         }
                     }];
-    
+    [super viewDidAppear:animated];
+
 }
 
 - (BOOL )shouldAutorotate{
