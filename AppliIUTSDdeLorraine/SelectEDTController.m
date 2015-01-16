@@ -66,7 +66,7 @@
         [myEDTCode setString:@"50764,50765,50766,50767"];
     }else if (codeEDT==1){
         [myEDTName setString:  @"SRC 2"];
-        [myEDTCode setString:@"63080,63081,63082,63083"];
+        [myEDTCode setString:@"63204,63205,63206,63208,165617,165618,165619"];
     }else if(codeEDT==2){
         [myEDTName setString:  @"LP CDG"];
         [myEDTCode setString:@"109585,109586"];
