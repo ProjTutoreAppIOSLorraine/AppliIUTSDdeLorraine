@@ -77,9 +77,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <webView contentMode="scaleToFill" id="Q6Z-k2-md3">
+                                    <webView contentMode="scaleToFill" scalesPageToFit="YES" id="Q6Z-k2-md3">
                                         <rect key="frame" x="0.0" y="158" width="320" height="410"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                                     </webView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -226,10 +227,6 @@
                                                     <segue destination="dWW-KZ-ixe" kind="modal" modalTransitionStyle="partialCurl" id="FSz-o2-fhu"/>
                                                 </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo_UL_IUT.png" id="xfT-Gv-oCF">
-                                                <rect key="frame" x="40" y="454" width="240" height="37"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Rfd-iu-mr1">
                                                 <rect key="frame" x="15" y="85" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -244,6 +241,10 @@
                                                     <segue destination="aLA-Ia-WOv" kind="modal" modalTransitionStyle="crossDissolve" id="GoH-SA-B2u"/>
                                                 </connections>
                                             </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo_UL_IUT.png" id="xfT-Gv-oCF">
+                                                <rect key="frame" x="40" y="461" width="240" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.99757881855337427" green="1" blue="0.98804323517182735" alpha="0.0" colorSpace="calibratedRGB"/>
                                         <gestureRecognizers/>

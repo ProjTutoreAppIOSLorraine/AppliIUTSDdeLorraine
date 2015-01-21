@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057DC9F61A6FE2C50060DC79 /* ActuWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9F51A6FE2C50060DC79 /* ActuWebView.m */; };
 		22089EAD169D9F2700298246 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EA2169D9F2700298246 /* fb.png */; };
 		22089EB6169DA6CD00298246 /* photo_iut.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB5169DA6CC00298246 /* photo_iut.png */; };
 		22089EB8169DB30400298246 /* iut_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB7169DB30400298246 /* iut_photo.png */; };
@@ -129,6 +130,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		057DC9F41A6FE2C50060DC79 /* ActuWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActuWebView.h; sourceTree = "<group>"; };
+		057DC9F51A6FE2C50060DC79 /* ActuWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActuWebView.m; sourceTree = "<group>"; };
 		22089EA2169D9F2700298246 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb.png; path = source/fb.png; sourceTree = "<group>"; };
 		22089EB5169DA6CC00298246 /* photo_iut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo_iut.png; path = source/photo_iut.png; sourceTree = "<group>"; };
 		22089EB7169DB30400298246 /* iut_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iut_photo.png; path = source/iut_photo.png; sourceTree = "<group>"; };
@@ -399,6 +402,8 @@
 		6D54724B167B3506003F58A5 /* AppliIUTSDdeLorraine */ = {
 			isa = PBXGroup;
 			children = (
+				057DC9F41A6FE2C50060DC79 /* ActuWebView.h */,
+				057DC9F51A6FE2C50060DC79 /* ActuWebView.m */,
 				CDF09084187DA8480083D60B /* AppliIUTSDdeLorraine.entitlements */,
 				CD588D8116DABE3300363C78 /* ExternLibs */,
 				CD588D8016DA8F7C00363C78 /* Controller */,
@@ -754,6 +759,7 @@
 				22407D53169E168000AB16CE /* WebView.m in Sources */,
 				CD77AF7C1A3A318000955EDE /* TestViewController.m in Sources */,
 				22407D56169E16A900AB16CE /* WebViewController.m in Sources */,
+				057DC9F61A6FE2C50060DC79 /* ActuWebView.m in Sources */,
 				6D04C43416A8460B000A228F /* DetailViewController.m in Sources */,
 				22A2F1E116C1608D00220945 /* EdtViewController.m in Sources */,
 				CDDFDE9F16CFB4AF005FD7A0 /* SelectEDTController.m in Sources */,
