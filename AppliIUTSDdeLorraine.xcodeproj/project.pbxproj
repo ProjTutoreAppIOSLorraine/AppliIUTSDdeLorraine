@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		057DC9F61A6FE2C50060DC79 /* ActuWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9F51A6FE2C50060DC79 /* ActuWebView.m */; };
 		057DCA001A6FE7580060DC79 /* ActuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9FF1A6FE7580060DC79 /* ActuViewController.m */; };
+		05B660681A71340100ED35DD /* ActuTwitter.html in Resources */ = {isa = PBXBuildFile; fileRef = 05B660671A71340100ED35DD /* ActuTwitter.html */; };
 		22089EAD169D9F2700298246 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EA2169D9F2700298246 /* fb.png */; };
 		22089EB6169DA6CD00298246 /* photo_iut.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB5169DA6CC00298246 /* photo_iut.png */; };
 		22089EB8169DB30400298246 /* iut_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB7169DB30400298246 /* iut_photo.png */; };
@@ -134,6 +135,7 @@
 		057DC9F51A6FE2C50060DC79 /* ActuWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActuWebView.m; sourceTree = "<group>"; };
 		057DC9FE1A6FE7580060DC79 /* ActuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActuViewController.h; sourceTree = "<group>"; };
 		057DC9FF1A6FE7580060DC79 /* ActuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActuViewController.m; sourceTree = "<group>"; };
+		05B660671A71340100ED35DD /* ActuTwitter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ActuTwitter.html; path = "../../Documents/MMI/S3/Projet tutoré/ActuTwitter.html"; sourceTree = "<group>"; };
 		22089EA2169D9F2700298246 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb.png; path = source/fb.png; sourceTree = "<group>"; };
 		22089EB5169DA6CC00298246 /* photo_iut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo_iut.png; path = source/photo_iut.png; sourceTree = "<group>"; };
 		22089EB7169DB30400298246 /* iut_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iut_photo.png; path = source/iut_photo.png; sourceTree = "<group>"; };
@@ -513,6 +515,7 @@
 		CD588D8016DA8F7C00363C78 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				05B660671A71340100ED35DD /* ActuTwitter.html */,
 				6D547283167B3631003F58A5 /* StartController.h */,
 				6D547284167B3631003F58A5 /* StartController.m */,
 				6D547263167B3506003F58A5 /* ViewController.h */,
@@ -721,6 +724,7 @@
 				F98F53D718AAA33D001FF872 /* titre_info2.png in Resources */,
 				CD52B76A17D0F7EC00CC954A /* logo_UL_IUT.png in Resources */,
 				F98F53D318AA9047001FF872 /* titre_reglages.png in Resources */,
+				05B660681A71340100ED35DD /* ActuTwitter.html in Resources */,
 				CD52B76C17D1285000CC954A /* img1.png in Resources */,
 				F987D38218A978B300AE291D /* info_edt.png in Resources */,
 				CD52B76E17D1289000CC954A /* img2.png in Resources */,

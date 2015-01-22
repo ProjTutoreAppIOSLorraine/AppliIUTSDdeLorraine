@@ -14,32 +14,27 @@
 
 @implementation ActuViewController
 
-- (void)viewDidLoad {
+@synthesize myDocView, viewAnimates, topImage;
+
+- (IBAction)done:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    NSString *fullURL = @"http://www.univ-lorraine.fr/";
-    NSURL *url = [NSURL URLWithString:fullURL];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [_Actu loadRequest:requestObj];
-    // Do any additional setup after loading the view.
+    NSURL * resourcePathURL = [[NSBundle mainBundle] resourceURL];
+    if(resourcePathURL)
+    {
+        NSURL * urlToLoad = [resourcePathURL
+                             URLByAppendingPathComponent: @"ActuTwitter.html"];
+        if(urlToLoad)
+        {
+            NSURLRequest * req = [NSURLRequest requestWithURL: urlToLoad];
+            [myDocView loadRequest: req];
+        }
+    }
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-- (void)dealloc {
-    [_Actu release];
-    [super dealloc];
+- (BOOL )shouldAutorotate{
+    return NO;
 }
 @end

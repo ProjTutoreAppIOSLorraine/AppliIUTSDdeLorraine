@@ -7,8 +7,37 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlidableView.h"
 
-@interface ActuViewController : UIViewController
+
+@interface ActuViewController : UIViewController<UIWebViewDelegate,SlidableView>{
+    
+    IBOutlet UIWebView *myDocView;
+    IBOutlet UIImageView *topImage;
+    IBOutlet UIView *viewAnimates;
+}
+
+@property (nonatomic, retain) IBOutlet UIWebView *myDocView;
+@property (nonatomic, retain) IBOutlet UIView *viewAnimates;
+@property (nonatomic, retain) IBOutlet UIImageView *topImage;
+
+- (IBAction)done:(id)sender;
+
+
 @property (retain, nonatomic) IBOutlet UIWebView *Actu;
 
-@end
+@end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
