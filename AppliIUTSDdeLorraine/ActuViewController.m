@@ -14,7 +14,7 @@
 
 @implementation ActuViewController
 
-@synthesize myDocView, viewAnimates, topImage;
+@synthesize Actu;
 
 - (IBAction)done:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
@@ -30,7 +30,7 @@
         if(urlToLoad)
         {
             NSURLRequest * req = [NSURLRequest requestWithURL: urlToLoad];
-            [myDocView loadRequest: req];
+            [Actu loadRequest: req];
         }
     }
 }

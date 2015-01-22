@@ -336,6 +336,7 @@
                                 </state>
                                 <connections>
                                     <action selector="back:" destination="ow5-XK-Qej" eventType="touchUpInside" id="ScV-aj-KoY"/>
+                                    <action selector="done:" destination="qIi-EC-YN4" eventType="touchUpInside" id="5Sp-yI-HuQ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jpd-mR-eST">
@@ -349,7 +350,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="Actu" destination="SJb-Ea-peE" id="DQD-9A-Hle"/>
+                        <outlet property="Actu" destination="SJb-Ea-peE" id="tac-Re-hbh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mK2-SR-yUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
