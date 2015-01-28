@@ -10,6 +10,7 @@
 		057DC9F61A6FE2C50060DC79 /* ActuWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9F51A6FE2C50060DC79 /* ActuWebView.m */; };
 		057DCA001A6FE7580060DC79 /* ActuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9FF1A6FE7580060DC79 /* ActuViewController.m */; };
 		05B660681A71340100ED35DD /* ActuTwitter.html in Resources */ = {isa = PBXBuildFile; fileRef = 05B660671A71340100ED35DD /* ActuTwitter.html */; };
+		05EA25341A794F0600E0BDDB /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 05EA25331A794F0600E0BDDB /* twitter.png */; };
 		22089EAD169D9F2700298246 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EA2169D9F2700298246 /* fb.png */; };
 		22089EB6169DA6CD00298246 /* photo_iut.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB5169DA6CC00298246 /* photo_iut.png */; };
 		22089EB8169DB30400298246 /* iut_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB7169DB30400298246 /* iut_photo.png */; };
@@ -136,6 +137,7 @@
 		057DC9FE1A6FE7580060DC79 /* ActuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActuViewController.h; sourceTree = "<group>"; };
 		057DC9FF1A6FE7580060DC79 /* ActuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActuViewController.m; sourceTree = "<group>"; };
 		05B660671A71340100ED35DD /* ActuTwitter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ActuTwitter.html; path = "../../Documents/MMI/S3/Projet tutoré/ActuTwitter.html"; sourceTree = "<group>"; };
+		05EA25331A794F0600E0BDDB /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = "../../Dropbox/Projet Tut' - Appli iPhone/twitter.png"; sourceTree = "<group>"; };
 		22089EA2169D9F2700298246 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb.png; path = source/fb.png; sourceTree = "<group>"; };
 		22089EB5169DA6CC00298246 /* photo_iut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo_iut.png; path = source/photo_iut.png; sourceTree = "<group>"; };
 		22089EB7169DB30400298246 /* iut_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iut_photo.png; path = source/iut_photo.png; sourceTree = "<group>"; };
@@ -450,6 +452,7 @@
 			children = (
 				CD52B75C17D0F44000CC954A /* ImagesMMI */,
 				05B660671A71340100ED35DD /* ActuTwitter.html */,
+				05EA25331A794F0600E0BDDB /* twitter.png */,
 				057DC9FE1A6FE7580060DC79 /* ActuViewController.h */,
 				057DC9FF1A6FE7580060DC79 /* ActuViewController.m */,
 				CD46AAFB16E38F850049D815 /* About_ViewController.h */,
@@ -650,6 +653,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFBB40516DA596E005A68CD /* geii2.png in Resources */,
+				05EA25341A794F0600E0BDDB /* twitter.png in Resources */,
 				F987D33A18A94B3600AE291D /* background.png in Resources */,
 				CDFBB40616DA596E005A68CD /* geii1.png in Resources */,
 				CDFBB40716DA596E005A68CD /* style.css in Resources */,
