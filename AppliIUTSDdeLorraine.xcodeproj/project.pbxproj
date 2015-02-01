@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057DC9F61A6FE2C50060DC79 /* ActuWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9F51A6FE2C50060DC79 /* ActuWebView.m */; };
+		057DCA001A6FE7580060DC79 /* ActuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9FF1A6FE7580060DC79 /* ActuViewController.m */; };
+		05B660681A71340100ED35DD /* ActuTwitter.html in Resources */ = {isa = PBXBuildFile; fileRef = 05B660671A71340100ED35DD /* ActuTwitter.html */; };
+		05EA25341A794F0600E0BDDB /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 05EA25331A794F0600E0BDDB /* twitter.png */; };
 		22089EAD169D9F2700298246 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EA2169D9F2700298246 /* fb.png */; };
 		22089EB6169DA6CD00298246 /* photo_iut.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB5169DA6CC00298246 /* photo_iut.png */; };
 		22089EB8169DB30400298246 /* iut_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB7169DB30400298246 /* iut_photo.png */; };
@@ -53,7 +57,6 @@
 		CD588D8416DAC05100363C78 /* ODRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD588D8316DABE4500363C78 /* ODRefreshControl.m */; };
 		CD588D8516DAC07600363C78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7BE61C16D03BC4006D09D1 /* QuartzCore.framework */; };
 		CD588D8816DACF3400363C78 /* SlideFromBottomAnim.m in Sources */ = {isa = PBXBuildFile; fileRef = CD588D8716DACF3400363C78 /* SlideFromBottomAnim.m */; };
-		CD77AF7C1A3A318000955EDE /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD77AF7B1A3A318000955EDE /* TestViewController.m */; };
 		CD77AF7E1A3A390C00955EDE /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77AF7D1A3A390C00955EDE /* bg.png */; };
 		CD9D730C16BD438500934CBC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9D730B16BD438500934CBC /* SystemConfiguration.framework */; };
 		CDA5245C16D4431A004A7C42 /* IUTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA5245B16D4431A004A7C42 /* IUTLocation.m */; };
@@ -129,6 +132,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		057DC9F41A6FE2C50060DC79 /* ActuWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActuWebView.h; sourceTree = "<group>"; };
+		057DC9F51A6FE2C50060DC79 /* ActuWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActuWebView.m; sourceTree = "<group>"; };
+		057DC9FE1A6FE7580060DC79 /* ActuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActuViewController.h; sourceTree = "<group>"; };
+		057DC9FF1A6FE7580060DC79 /* ActuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActuViewController.m; sourceTree = "<group>"; };
+		05B660671A71340100ED35DD /* ActuTwitter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ActuTwitter.html; path = "../../Documents/MMI/S3/Projet tutoré/ActuTwitter.html"; sourceTree = "<group>"; };
+		05EA25331A794F0600E0BDDB /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = "../../Dropbox/Projet Tut' - Appli iPhone/twitter.png"; sourceTree = "<group>"; };
 		22089EA2169D9F2700298246 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb.png; path = source/fb.png; sourceTree = "<group>"; };
 		22089EB5169DA6CC00298246 /* photo_iut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo_iut.png; path = source/photo_iut.png; sourceTree = "<group>"; };
 		22089EB7169DB30400298246 /* iut_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iut_photo.png; path = source/iut_photo.png; sourceTree = "<group>"; };
@@ -190,8 +199,6 @@
 		CD588D8616DACF3400363C78 /* SlideFromBottomAnim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideFromBottomAnim.h; sourceTree = "<group>"; };
 		CD588D8716DACF3400363C78 /* SlideFromBottomAnim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideFromBottomAnim.m; sourceTree = "<group>"; };
 		CD588D8916DACFB200363C78 /* SlidableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidableView.h; sourceTree = "<group>"; };
-		CD77AF7A1A3A318000955EDE /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		CD77AF7B1A3A318000955EDE /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		CD77AF7D1A3A390C00955EDE /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		CD7BE61C16D03BC4006D09D1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CD9D730816BD414300934CBC /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
@@ -360,8 +367,6 @@
 		6D547236167B3506003F58A5 = {
 			isa = PBXGroup;
 			children = (
-				CD77AF7A1A3A318000955EDE /* TestViewController.h */,
-				CD77AF7B1A3A318000955EDE /* TestViewController.m */,
 				F97E7EB918AA2A1400B2AB22 /* 29x29.png */,
 				F97E7EBA18AA2A1500B2AB22 /* 57x57.png */,
 				F97E7EBB18AA2A1500B2AB22 /* 58x58.png */,
@@ -399,6 +404,8 @@
 		6D54724B167B3506003F58A5 /* AppliIUTSDdeLorraine */ = {
 			isa = PBXGroup;
 			children = (
+				057DC9F41A6FE2C50060DC79 /* ActuWebView.h */,
+				057DC9F51A6FE2C50060DC79 /* ActuWebView.m */,
 				CDF09084187DA8480083D60B /* AppliIUTSDdeLorraine.entitlements */,
 				CD588D8116DABE3300363C78 /* ExternLibs */,
 				CD588D8016DA8F7C00363C78 /* Controller */,
@@ -444,6 +451,10 @@
 			isa = PBXGroup;
 			children = (
 				CD52B75C17D0F44000CC954A /* ImagesMMI */,
+				05B660671A71340100ED35DD /* ActuTwitter.html */,
+				05EA25331A794F0600E0BDDB /* twitter.png */,
+				057DC9FE1A6FE7580060DC79 /* ActuViewController.h */,
+				057DC9FF1A6FE7580060DC79 /* ActuViewController.m */,
 				CD46AAFB16E38F850049D815 /* About_ViewController.h */,
 				CD46AAFC16E38F850049D815 /* About_ViewController.m */,
 				CD46AAF916E38F330049D815 /* about.html */,
@@ -642,6 +653,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFBB40516DA596E005A68CD /* geii2.png in Resources */,
+				05EA25341A794F0600E0BDDB /* twitter.png in Resources */,
 				F987D33A18A94B3600AE291D /* background.png in Resources */,
 				CDFBB40616DA596E005A68CD /* geii1.png in Resources */,
 				CDFBB40716DA596E005A68CD /* style.css in Resources */,
@@ -716,6 +728,7 @@
 				F98F53D718AAA33D001FF872 /* titre_info2.png in Resources */,
 				CD52B76A17D0F7EC00CC954A /* logo_UL_IUT.png in Resources */,
 				F98F53D318AA9047001FF872 /* titre_reglages.png in Resources */,
+				05B660681A71340100ED35DD /* ActuTwitter.html in Resources */,
 				CD52B76C17D1285000CC954A /* img1.png in Resources */,
 				F987D38218A978B300AE291D /* info_edt.png in Resources */,
 				CD52B76E17D1289000CC954A /* img2.png in Resources */,
@@ -743,6 +756,7 @@
 				CDFBB3FD16DA58A8005A68CD /* IUT_ViewController.m in Sources */,
 				CDFBB3FE16DA58A8005A68CD /* GEII_ViewController.m in Sources */,
 				CDFBB3FF16DA58A8005A68CD /* INFO_ViewController.m in Sources */,
+				057DCA001A6FE7580060DC79 /* ActuViewController.m in Sources */,
 				CDFBB40016DA58A8005A68CD /* SRC_ViewController.m in Sources */,
 				CD21423C16CF81CF0048D002 /* Utils.m in Sources */,
 				6D547252167B3506003F58A5 /* main.m in Sources */,
@@ -752,8 +766,8 @@
 				6D2A6381167B617B00BAC6A8 /* News.m in Sources */,
 				6D2A6384167B650700BAC6A8 /* RootViewController.m in Sources */,
 				22407D53169E168000AB16CE /* WebView.m in Sources */,
-				CD77AF7C1A3A318000955EDE /* TestViewController.m in Sources */,
 				22407D56169E16A900AB16CE /* WebViewController.m in Sources */,
+				057DC9F61A6FE2C50060DC79 /* ActuWebView.m in Sources */,
 				6D04C43416A8460B000A228F /* DetailViewController.m in Sources */,
 				22A2F1E116C1608D00220945 /* EdtViewController.m in Sources */,
 				CDDFDE9F16CFB4AF005FD7A0 /* SelectEDTController.m in Sources */,
