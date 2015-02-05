@@ -17,7 +17,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="intro.png" id="h6L-5T-xVT">
-                                <rect key="frame" x="-37" y="0.0" width="395" height="575"/>
+                                <rect key="frame" x="-45" y="-13" width="410" height="594"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -38,22 +38,22 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="N4l-Wz-5Lj">
-                                    <rect key="frame" x="0.0" y="0.0" width="350" height="568"/>
+                                    <rect key="frame" x="-15" y="0.0" width="350" height="568"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="sponsor.png" id="Kzl-vK-bsf">
-                                    <rect key="frame" x="26" y="235" width="269" height="98"/>
+                                    <rect key="frame" x="25" y="235" width="269" height="98"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="En partenariat avec:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ua8-ZE-snj">
-                                    <rect key="frame" x="76" y="153" width="168" height="21"/>
+                                    <rect key="frame" x="76" y="274" width="168" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo_UL_IUT.png" id="GFP-AI-Sz9">
-                                    <rect key="frame" x="8" y="405" width="294" height="175"/>
+                                    <rect key="frame" x="13" y="197" width="294" height="175"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 </imageView>
                             </subviews>
@@ -1697,7 +1697,7 @@
         <image name="info2a.png" width="104" height="106"/>
         <image name="info_edt.png" width="191" height="66"/>
         <image name="informatique_2.png" width="640" height="298"/>
-        <image name="intro.png" width="640" height="1140"/>
+        <image name="intro.png" width="640" height="1180"/>
         <image name="isn.png" width="104" height="106"/>
         <image name="iut.png" width="194" height="197"/>
         <image name="iut_photo.png" width="640" height="298"/>
