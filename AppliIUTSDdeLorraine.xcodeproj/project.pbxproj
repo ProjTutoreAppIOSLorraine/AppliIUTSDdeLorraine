@@ -11,6 +11,7 @@
 		057DCA001A6FE7580060DC79 /* ActuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9FF1A6FE7580060DC79 /* ActuViewController.m */; };
 		05B660681A71340100ED35DD /* ActuTwitter.html in Resources */ = {isa = PBXBuildFile; fileRef = 05B660671A71340100ED35DD /* ActuTwitter.html */; };
 		05E055A61A836E22006BB738 /* tecamtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E055A51A836E22006BB738 /* tecamtv.png */; };
+		05E055A81A83AC0B006BB738 /* titre_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E055A71A83AC0B006BB738 /* titre_twitter.png */; };
 		05EA25341A794F0600E0BDDB /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 05EA25331A794F0600E0BDDB /* twitter.png */; };
 		22089EAD169D9F2700298246 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EA2169D9F2700298246 /* fb.png */; };
 		22089EB6169DA6CD00298246 /* photo_iut.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB5169DA6CC00298246 /* photo_iut.png */; };
@@ -138,6 +139,7 @@
 		057DC9FF1A6FE7580060DC79 /* ActuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActuViewController.m; sourceTree = "<group>"; };
 		05B660671A71340100ED35DD /* ActuTwitter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ActuTwitter.html; path = "../../Documents/MMI/S3/Projet tutoré/ActuTwitter.html"; sourceTree = "<group>"; };
 		05E055A51A836E22006BB738 /* tecamtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tecamtv.png; sourceTree = "<group>"; };
+		05E055A71A83AC0B006BB738 /* titre_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titre_twitter.png; sourceTree = "<group>"; };
 		05EA25331A794F0600E0BDDB /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		22089EA2169D9F2700298246 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb.png; path = source/fb.png; sourceTree = "<group>"; };
 		22089EB5169DA6CC00298246 /* photo_iut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo_iut.png; path = source/photo_iut.png; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 		22089E9D169D9F0900298246 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				05E055A71A83AC0B006BB738 /* titre_twitter.png */,
 				CD28666018AC1EBE004CE954 /* header.png */,
 				F98F53DA18AAA369001FF872 /* titre_geii2.png */,
 				F98F53D418AAA33D001FF872 /* titre_info2.png */,
@@ -714,6 +717,7 @@
 				CD46AAFA16E38F330049D815 /* about.html in Resources */,
 				CD56DBEB16EE89AA00CD3837 /* Settings.bundle in Resources */,
 				F987D37118A9751800AE291D /* cdg.png in Resources */,
+				05E055A81A83AC0B006BB738 /* titre_twitter.png in Resources */,
 				F987D35318A956A300AE291D /* mmi.png in Resources */,
 				F987D36318A9730A00AE291D /* geii1a.png in Resources */,
 				F987D36418A9730A00AE291D /* geii2a.png in Resources */,
