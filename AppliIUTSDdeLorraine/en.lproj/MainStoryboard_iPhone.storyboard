@@ -82,7 +82,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <webView contentMode="scaleToFill" scalesPageToFit="YES" id="Q6Z-k2-md3">
-                                        <rect key="frame" x="0.0" y="158" width="320" height="410"/>
+                                        <rect key="frame" x="0.0" y="67" width="320" height="501"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                                     </webView>
