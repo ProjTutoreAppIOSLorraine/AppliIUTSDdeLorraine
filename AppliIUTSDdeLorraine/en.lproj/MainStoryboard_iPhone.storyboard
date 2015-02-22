@@ -895,7 +895,7 @@
         <!--Plan_Select-->
         <scene sceneID="7g1-HM-tbp">
             <objects>
-                <viewController title="Plan_Select" id="kBn-bA-Ecx" sceneMemberID="viewController">
+                <viewController title="Plan_Select" id="kBn-bA-Ecx" customClass="PlanController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hlz-Nf-Wp0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -927,13 +927,18 @@
                                     <action selector="back:" destination="eIZ-E1-YTe" eventType="touchUpInside" id="3dk-gF-ADN"/>
                                 </connections>
                             </button>
+                            <webView contentMode="scaleToFill" id="igN-pQ-2Wl" userLabel="Plan">
+                                <rect key="frame" x="8" y="78" width="304" height="482"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wZp-fO-YjI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="-895"/>
+            <point key="canvasLocation" x="896" y="-1009"/>
         </scene>
         <!--SelectEDT Controller-->
         <scene sceneID="LzY-TV-uwR">
