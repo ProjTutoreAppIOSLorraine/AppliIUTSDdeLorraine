@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052264A11A9A014D00BA9059 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 052264A01A9A014D00BA9059 /* 0.png */; };
+		052264A41A9A03B300BA9059 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 052264A21A9A03B300BA9059 /* 1.png */; };
+		052264A51A9A03B300BA9059 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 052264A31A9A03B300BA9059 /* 2.png */; };
 		057DC9F61A6FE2C50060DC79 /* ActuWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9F51A6FE2C50060DC79 /* ActuWebView.m */; };
 		057DCA001A6FE7580060DC79 /* ActuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DC9FF1A6FE7580060DC79 /* ActuViewController.m */; };
 		05B660681A71340100ED35DD /* ActuTwitter.html in Resources */ = {isa = PBXBuildFile; fileRef = 05B660671A71340100ED35DD /* ActuTwitter.html */; };
@@ -133,6 +136,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		052264A01A9A014D00BA9059 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		052264A21A9A03B300BA9059 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		052264A31A9A03B300BA9059 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		057DC9F41A6FE2C50060DC79 /* ActuWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActuWebView.h; sourceTree = "<group>"; };
 		057DC9F51A6FE2C50060DC79 /* ActuWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActuWebView.m; sourceTree = "<group>"; };
 		057DC9FE1A6FE7580060DC79 /* ActuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActuViewController.h; sourceTree = "<group>"; };
@@ -420,6 +426,9 @@
 				6D547254167B3506003F58A5 /* AppDelegate.h */,
 				6D547255167B3506003F58A5 /* AppDelegate.m */,
 				6D54725D167B3506003F58A5 /* MainStoryboard_iPhone.storyboard */,
+				052264A21A9A03B300BA9059 /* 1.png */,
+				052264A31A9A03B300BA9059 /* 2.png */,
+				052264A01A9A014D00BA9059 /* 0.png */,
 				22407D51169E168000AB16CE /* WebView.h */,
 				22407D52169E168000AB16CE /* WebView.m */,
 				22407D54169E16A900AB16CE /* WebViewController.h */,
@@ -665,6 +674,7 @@
 				CDFBB40116DA5945005A68CD /* geii.html in Resources */,
 				CDFBB40216DA5945005A68CD /* info.html in Resources */,
 				CD28666118AC1EBE004CE954 /* header.png in Resources */,
+				052264A11A9A014D00BA9059 /* 0.png in Resources */,
 				F98F53CF18AA9047001FF872 /* titre_iut.png in Resources */,
 				CDFBB40316DA5945005A68CD /* src.html in Resources */,
 				CDFBB40416DA5945005A68CD /* iut.html in Resources */,
@@ -693,6 +703,7 @@
 				F98F53C318AA863C001FF872 /* intro.png in Resources */,
 				F987D38618A980D800AE291D /* sponsor.png in Resources */,
 				F9AD98FD184F967200B983B5 /* champ_identifiant.png in Resources */,
+				052264A51A9A03B300BA9059 /* 2.png in Resources */,
 				F98F53D818AAA33D001FF872 /* titre_logo.png in Resources */,
 				F98F53CE18AA9047001FF872 /* titre_general.png in Resources */,
 				F987D38118A978B300AE291D /* geii_edt.png in Resources */,
@@ -743,6 +754,7 @@
 				CD52B77217D128AA00CC954A /* img4.png in Resources */,
 				CD52B77417D128B300CC954A /* img5.png in Resources */,
 				F97E7EC118AA2A1500B2AB22 /* 58x58.png in Resources */,
+				052264A41A9A03B300BA9059 /* 1.png in Resources */,
 				CD52B77617D128BD00CC954A /* img6.png in Resources */,
 				F98F53D918AAA33D001FF872 /* titre_mmi2.png in Resources */,
 			);
