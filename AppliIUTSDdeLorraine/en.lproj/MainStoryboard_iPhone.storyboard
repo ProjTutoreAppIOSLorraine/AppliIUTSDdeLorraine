@@ -497,15 +497,15 @@
                                 <rect key="frame" x="-3" y="0.0" width="326" height="568"/>
                             </imageView>
                             <view contentMode="scaleToFill" id="V4y-xX-Kxp" userLabel="ViewAnimates">
-                                <rect key="frame" x="0.0" y="65" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="70" width="320" height="499"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="iut_photo.png" id="hBf-8h-Yf6">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                        <rect key="frame" x="0.0" y="-5" width="320" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                     </imageView>
                                     <webView contentMode="scaleToFill" id="ZDk-Ao-78D">
-                                        <rect key="frame" x="0.0" y="124" width="320" height="380"/>
+                                        <rect key="frame" x="0.0" y="119" width="320" height="380"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -564,15 +564,15 @@
                                 <rect key="frame" x="-3" y="-1" width="326" height="570"/>
                             </imageView>
                             <view contentMode="scaleToFill" id="HbK-gP-4Mv" userLabel="ViewAnimates">
-                                <rect key="frame" x="0.0" y="65" width="320" height="503"/>
+                                <rect key="frame" x="0.0" y="69" width="320" height="499"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="src_photo.png" id="N9k-8s-iXH">
-                                        <rect key="frame" x="0.0" y="-1" width="320" height="140"/>
+                                        <rect key="frame" x="0.0" y="-5" width="320" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                     </imageView>
                                     <webView contentMode="scaleToFill" id="wNZ-mw-1zC">
-                                        <rect key="frame" x="0.0" y="115" width="320" height="388"/>
+                                        <rect key="frame" x="0.0" y="111" width="320" height="388"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -1395,15 +1395,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="567"/>
                             </imageView>
                             <view contentMode="scaleToFill" id="ZWE-Vm-P6g" userLabel="ViewAnimates">
-                                <rect key="frame" x="0.0" y="70" width="320" height="498"/>
+                                <rect key="frame" x="0.0" y="70" width="320" height="507"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="informatique_2.png" id="OGu-yY-fbc">
-                                        <rect key="frame" x="0.0" y="-5" width="320" height="184"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="184"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                     </imageView>
                                     <webView contentMode="scaleToFill" id="BVX-rZ-Rqo">
-                                        <rect key="frame" x="0.0" y="115" width="320" height="383"/>
+                                        <rect key="frame" x="0.0" y="120" width="320" height="387"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
