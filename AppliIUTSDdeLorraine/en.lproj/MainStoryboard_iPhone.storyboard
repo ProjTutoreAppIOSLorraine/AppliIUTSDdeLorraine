@@ -924,17 +924,23 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="back:" destination="eIZ-E1-YTe" eventType="touchUpInside" id="3dk-gF-ADN"/>
+                                    <action selector="back:" destination="kBn-bA-Ecx" eventType="touchUpInside" id="XKU-dx-5Zn"/>
                                 </connections>
                             </button>
-                            <webView contentMode="scaleToFill" id="igN-pQ-2Wl" userLabel="Plan">
-                                <rect key="frame" x="8" y="78" width="304" height="482"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="jAp-YI-wN3">
+                                <rect key="frame" x="10" y="78" width="303" height="483"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
+                                <connections>
+                                    <outlet property="delegate" destination="kBn-bA-Ecx" id="5h2-gp-ue0"/>
+                                </connections>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myButtonBack" destination="oah-Ue-Hu4" id="UHd-Qb-WWO"/>
+                        <outlet property="scrollView" destination="jAp-YI-wN3" id="CuZ-Jr-Vvx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wZp-fO-YjI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

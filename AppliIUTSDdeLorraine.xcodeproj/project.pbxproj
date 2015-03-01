@@ -17,6 +17,7 @@
 		05E055A61A836E22006BB738 /* tecamtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E055A51A836E22006BB738 /* tecamtv.png */; };
 		05E055A81A83AC0B006BB738 /* titre_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E055A71A83AC0B006BB738 /* titre_twitter.png */; };
 		05EA25341A794F0600E0BDDB /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 05EA25331A794F0600E0BDDB /* twitter.png */; };
+		05EDAB801A9F2D3F00E7973A /* PlanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EDAB7F1A9F2D3F00E7973A /* PlanController.m */; };
 		22089EAD169D9F2700298246 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EA2169D9F2700298246 /* fb.png */; };
 		22089EB6169DA6CD00298246 /* photo_iut.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB5169DA6CC00298246 /* photo_iut.png */; };
 		22089EB8169DB30400298246 /* iut_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 22089EB7169DB30400298246 /* iut_photo.png */; };
@@ -149,6 +150,8 @@
 		05E055A51A836E22006BB738 /* tecamtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tecamtv.png; sourceTree = "<group>"; };
 		05E055A71A83AC0B006BB738 /* titre_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titre_twitter.png; sourceTree = "<group>"; };
 		05EA25331A794F0600E0BDDB /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		05EDAB7E1A9F2D3F00E7973A /* PlanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanController.h; sourceTree = "<group>"; };
+		05EDAB7F1A9F2D3F00E7973A /* PlanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanController.m; sourceTree = "<group>"; };
 		22089EA2169D9F2700298246 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb.png; path = source/fb.png; sourceTree = "<group>"; };
 		22089EB5169DA6CC00298246 /* photo_iut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo_iut.png; path = source/photo_iut.png; sourceTree = "<group>"; };
 		22089EB7169DB30400298246 /* iut_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iut_photo.png; path = source/iut_photo.png; sourceTree = "<group>"; };
@@ -428,7 +431,6 @@
 				6D547254167B3506003F58A5 /* AppDelegate.h */,
 				6D547255167B3506003F58A5 /* AppDelegate.m */,
 				6D54725D167B3506003F58A5 /* MainStoryboard_iPhone.storyboard */,
-				052264A91A9A0D0500BA9059 /* carte.jpg */,
 				052264A21A9A03B300BA9059 /* 1.png */,
 				052264A31A9A03B300BA9059 /* 2.png */,
 				052264A01A9A014D00BA9059 /* 0.png */,
@@ -536,6 +538,9 @@
 		CD588D8016DA8F7C00363C78 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				05EDAB7E1A9F2D3F00E7973A /* PlanController.h */,
+				05EDAB7F1A9F2D3F00E7973A /* PlanController.m */,
+				052264A91A9A0D0500BA9059 /* carte.jpg */,
 				6D547283167B3631003F58A5 /* StartController.h */,
 				6D547284167B3631003F58A5 /* StartController.m */,
 				6D547263167B3506003F58A5 /* ViewController.h */,
@@ -781,6 +786,7 @@
 				CD21423C16CF81CF0048D002 /* Utils.m in Sources */,
 				6D547252167B3506003F58A5 /* main.m in Sources */,
 				6D547256167B3506003F58A5 /* AppDelegate.m in Sources */,
+				05EDAB801A9F2D3F00E7973A /* PlanController.m in Sources */,
 				6D547265167B3506003F58A5 /* ViewController.m in Sources */,
 				6D547285167B3631003F58A5 /* StartController.m in Sources */,
 				6D2A6381167B617B00BAC6A8 /* News.m in Sources */,
