@@ -1415,7 +1415,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titre_reglages.png" id="9dV-Cu-hZq">
-                                <rect key="frame" x="159" y="11" width="94" height="53"/>
+                                <rect key="frame" x="145" y="11" width="145" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1797,7 +1797,7 @@
         <image name="titre_news.png" width="108" height="61"/>
         <image name="titre_plan.png" width="97" height="61"/>
         <image name="titre_qsn.png" width="205" height="61"/>
-        <image name="titre_reglages.png" width="97" height="61"/>
+        <image name="titre_reglages.png" width="177" height="61"/>
         <image name="titre_twitter.png" width="185" height="61"/>
         <image name="trait.png" width="509" height="1"/>
         <image name="twitter.png" width="194" height="197"/>
