@@ -66,11 +66,11 @@
     newZoomScale = MAX(newZoomScale, self.scrollView.minimumZoomScale);
     [self.scrollView setZoomScale:newZoomScale animated:YES];
 }
-- (void) jffdjk{
+/*- (void) jffdjk{
     UIImage *imageNew = [UIImage imageNamed:@"carte2.jpg"];
     [self.imageView setImage: imageNew];
 
-}
+}*/
 
 - (void)viewDidLoad {
     [super viewDidLoad];
