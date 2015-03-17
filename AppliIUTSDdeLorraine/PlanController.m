@@ -66,11 +66,22 @@
     newZoomScale = MAX(newZoomScale, self.scrollView.minimumZoomScale);
     [self.scrollView setZoomScale:newZoomScale animated:YES];
 }
-/*- (void) jffdjk{
-    UIImage *imageNew = [UIImage imageNamed:@"carte2.jpg"];
+/*
+- (void) testone{
+    UIImage *imageNew = [UIImage imageNamed:@"0.png"];
     [self.imageView setImage: imageNew];
-
-}*/
+ }
+ 
+- (void) testwo{
+ UIImage *imageNew = [UIImage imageNamed:@"1.png"];
+ [self.imageView setImage: imageNew];
+}
+ 
+ - (void) testhree{
+ UIImage *imageNew = [UIImage imageNamed:@"2.png"];
+ [self.imageView setImage: imageNew];
+ }
+ */
 
 - (void)viewDidLoad {
     [super viewDidLoad];
