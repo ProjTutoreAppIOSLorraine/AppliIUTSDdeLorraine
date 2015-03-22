@@ -24,6 +24,27 @@
 @synthesize scrollView = _scrollView;
 @synthesize imageView = _imageView;
 
+- (IBAction)setPlan1:(id)sender {
+    UIImage *imageNew = [UIImage imageNamed:@"RDC.png"];
+    [self.imageView setImage: imageNew];
+    
+}
+
+
+- (IBAction)setPlan2:(id)sender {
+    UIImage *imageNew = [UIImage imageNamed:@"premieretage.png"];
+    [self.imageView setImage: imageNew];
+    
+}
+
+
+
+- (IBAction)setPlan3:(id)sender {
+    UIImage *imageNew = [UIImage imageNamed:@"deuxiemeetage.png"];
+    [self.imageView setImage: imageNew];
+    
+}
+
 - (void)centerScrollViewContents {
     CGSize boundsSize = self.scrollView.bounds.size;
     CGRect contentsFrame = self.imageView.frame;
@@ -85,7 +106,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImage *image = [UIImage imageNamed:@"carte.jpg"];
+    UIImage *image = [UIImage imageNamed:@"carte.png"];
     self.imageView = [[UIImageView alloc] initWithImage:image];
     self.imageView.frame = (CGRect){.origin=CGPointMake(0.0f, 0.0f), .size=image.size};
     [self.scrollView addSubview:self.imageView];
@@ -140,7 +161,9 @@
     [myButtonBack setEnabled:NO];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-    
+
+
+
 /*
 #pragma mark - Navigation
 
