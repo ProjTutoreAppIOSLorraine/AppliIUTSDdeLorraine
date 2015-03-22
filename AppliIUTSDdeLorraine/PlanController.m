@@ -24,26 +24,7 @@
 @synthesize scrollView = _scrollView;
 @synthesize imageView = _imageView;
 
-- (IBAction)setPlan1:(id)sender {
-    UIImage *imageNew = [UIImage imageNamed:@"RDC.png"];
-    [self.imageView setImage: imageNew];
-    
-}
 
-
-- (IBAction)setPlan2:(id)sender {
-    UIImage *imageNew = [UIImage imageNamed:@"premieretage.png"];
-    [self.imageView setImage: imageNew];
-    
-}
-
-
-
-- (IBAction)setPlan3:(id)sender {
-    UIImage *imageNew = [UIImage imageNamed:@"deuxiemeetage.png"];
-    [self.imageView setImage: imageNew];
-    
-}
 
 - (void)centerScrollViewContents {
     CGSize boundsSize = self.scrollView.bounds.size;
@@ -62,6 +43,28 @@
     }
     
     self.imageView.frame = contentsFrame;
+}
+
+- (IBAction)setPlan1:(id)sender {
+    UIImage *imageNew = [UIImage imageNamed:@"RDC.png"];
+    [self.imageView setImage: imageNew];
+    
+    
+}
+
+
+- (IBAction)setPlan2:(id)sender {
+    UIImage *imageNew = [UIImage imageNamed:@"premieretage.png"];
+    [self.imageView setImage: imageNew];
+    
+}
+
+
+
+- (IBAction)setPlan3:(id)sender {
+    UIImage *imageNew = [UIImage imageNamed:@"deuxiemeetage.png"];
+    [self.imageView setImage: imageNew];
+    
 }
 
 - (void)scrollViewDoubleTapped:(UITapGestureRecognizer*)recognizer {
@@ -87,22 +90,7 @@
     newZoomScale = MAX(newZoomScale, self.scrollView.minimumZoomScale);
     [self.scrollView setZoomScale:newZoomScale animated:YES];
 }
-/*
-- (void) testone{
-    UIImage *imageNew = [UIImage imageNamed:@"0.png"];
-    [self.imageView setImage: imageNew];
- }
- 
-- (void) testwo{
- UIImage *imageNew = [UIImage imageNamed:@"1.png"];
- [self.imageView setImage: imageNew];
-}
- 
- - (void) testhree{
- UIImage *imageNew = [UIImage imageNamed:@"2.png"];
- [self.imageView setImage: imageNew];
- }
- */
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -924,7 +924,7 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="jAp-YI-wN3">
-                                <rect key="frame" x="10" y="87" width="303" height="423"/>
+                                <rect key="frame" x="10" y="87" width="303" height="413"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="kBn-bA-Ecx" id="5h2-gp-ue0"/>
@@ -934,30 +934,30 @@
                                 <rect key="frame" x="143" y="14" width="105" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fQ8-pz-6HX">
-                                <rect key="frame" x="32" y="518" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fQ8-pz-6HX">
+                                <rect key="frame" x="8" y="506" width="75" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" image="button_plan_0.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="setPlan1:" destination="kBn-bA-Ecx" eventType="touchUpInside" id="8tS-pl-eBd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="71a-mu-Qnj">
-                                <rect key="frame" x="152" y="518" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="71a-mu-Qnj">
+                                <rect key="frame" x="124" y="506" width="75" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Button" image="button_plan_1.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="setPlan2:" destination="kBn-bA-Ecx" eventType="touchUpInside" id="TgM-ZL-S4T"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tgR-vC-gso">
-                                <rect key="frame" x="258" y="518" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tgR-vC-gso">
+                                <rect key="frame" x="227" y="506" width="75" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" image="button_plan_2.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1783,6 +1783,9 @@
         <image name="a2i.png" width="104" height="106"/>
         <image name="background.png" width="640" height="1136"/>
         <image name="bg_txt.jpg" width="640" height="1136"/>
+        <image name="button_plan_0.png" width="194" height="197"/>
+        <image name="button_plan_1.png" width="194" height="197"/>
+        <image name="button_plan_2.png" width="194" height="197"/>
         <image name="cdg.png" width="104" height="106"/>
         <image name="connexion.png" width="151" height="185"/>
         <image name="edt.png" width="194" height="197"/>
