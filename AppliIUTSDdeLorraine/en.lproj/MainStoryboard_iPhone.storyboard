@@ -252,7 +252,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="qIi-EC-YN4" kind="modal" modalTransitionStyle="crossDissolve" id="NPV-rf-ysZ"/>
+                                                    <segue destination="qIi-EC-YN4" kind="modal" modalTransitionStyle="partialCurl" id="NPV-rf-ysZ"/>
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="header.png" id="cJZ-GP-1JP">

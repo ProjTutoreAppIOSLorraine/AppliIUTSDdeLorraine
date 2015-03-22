@@ -34,6 +34,7 @@
         }
     }
 }
+
 - (BOOL )shouldAutorotate{
     return NO;
 }
