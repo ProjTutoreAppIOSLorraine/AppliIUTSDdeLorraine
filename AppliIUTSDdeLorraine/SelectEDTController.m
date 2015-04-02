@@ -63,10 +63,10 @@
     // SRC1 SRC2 LP%
     if(codeEDT ==0){
         [myEDTName setString:  @"SRC 1"];
-        [myEDTCode setString:@"50764,50765,50766,50767"];
+        [myEDTCode setString:@"50788,50789,50790,50791"];
     }else if (codeEDT==1){
         [myEDTName setString:  @"SRC 2"];
-        [myEDTCode setString:@"63080,63081,63082,63083"];
+        [myEDTCode setString:@"63204,63205,63206,63208,165617,165618,165619"];
     }else if(codeEDT==2){
         [myEDTName setString:  @"LP CDG"];
         [myEDTCode setString:@"109585,109586"];
@@ -77,11 +77,11 @@
     // Info1 Info2 LPs
     else if(codeEDT==5){
         [myEDTName setString:  @"Info 1"];
-        [myEDTCode setString:@"48488,48489,48490,48491"];
+        [myEDTCode setString:@"48493,48494,48495,48496"];
         [self performSegueWithIdentifier:@"visuedt" sender:self];
     }    else if(codeEDT==6){
         [myEDTName setString:  @"Info 2"];
-        [myEDTCode setString:@"60448,60449,60450,60451"];
+        [myEDTCode setString:@"61288,61289,61290,61291"];
     } else if(codeEDT==7){
         [myEDTName setString:  @"LP IMM"];
         [myEDTCode setString:@"59050,59051,59052,59054,59055,59056,59058,59059,59062,59063,59064,59066,59067,59068,59070,59487,59488,59490,59491,59492,59494,59495,59496,59498,59499,59500,59503,59504,59505,59507,59508,59509,59511,59512,59513,59515,59516,59517,59519,59520,59521,59523,59524,59525"];
@@ -92,11 +92,11 @@
     // GEII 1 2  LPs
     else if(codeEDT==9){
         [myEDTName setString:  @"LP GEII 1"];
-        [myEDTCode setString:@"51584,51585,51586,51638"];
+        [myEDTCode setString:@"2372,2375,2394,2398"];
     }
     else if(codeEDT==10){
         [myEDTName setString:  @"GEII 2"];
-        [myEDTCode setString:@"59678,59679,59680,59681"];
+        [myEDTCode setString:@"59766,59767,59768,59769"];
     }else if(codeEDT==11){
         [myEDTName setString:  @"LP A2I"];
         [myEDTCode setString:@"47958,47959"];

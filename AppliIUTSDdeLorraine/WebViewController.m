@@ -15,36 +15,20 @@
 @implementation WebViewController
 @synthesize webView;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSString *fullURL = @"http://www.facebook.com/AppliIUTSD?ref=hl";
+    NSURL *url = [NSURL URLWithString:fullURL];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:requestObj];
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    self.webView = [[[UIWebView alloc]
-                     initWithFrame:CGRectMake(0, 40, 320, 420)] autorelease];
-    
-    NSString *urlAddress = @"http://www.facebook.com/AppliIUTSD?ref=hl";
-    NSURL *url = [[[NSURL alloc] initWithString:urlAddress] autorelease];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    
-    [self.webView loadRequest:requestObj];
-    
-    [self.view addSubview:self.webView];
-}
-
 
 
 - (IBAction)back:(id)sender {

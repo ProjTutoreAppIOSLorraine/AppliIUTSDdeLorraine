@@ -68,7 +68,7 @@
 
 - (IBAction)back:(id)sender {
     [myButtonBack setEnabled:NO];
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:NO completion:nil];
 
 //    [myButtonBack setEnabled:NO];
 //    UIView * previousView = [(UIViewController<SlidableView> *)[self presentingViewController] viewAnimates];

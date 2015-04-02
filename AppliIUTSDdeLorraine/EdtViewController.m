@@ -54,7 +54,7 @@
     [df setDateFormat:@"ww"];
     NSString *weeka = [df stringFromDate:date];
     [df dealloc];
-    numWeek = ([weeka integerValue] + 17) % 51;
+    numWeek = ([weeka integerValue] + 18) % 51;
     NSString *week = [NSString stringWithFormat:@"%d",numWeek];
     
     
